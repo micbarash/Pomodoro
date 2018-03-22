@@ -1,0 +1,30 @@
+:root {
+	background-color: lightgrey;
+}
+div {
+	border: 1px solid black;
+}
+h1 {
+	color: #656262;
+	font-size: 42px;
+}
+.container {
+	width: 500px;
+	height: 450px;
+	margin: auto;
+	display: grid;
+	grid-template-rows: 20% 25% 55%;
+	grid-gap: 12px;
+	border: none;
+}
+.header {
+	margin: auto;
+	font-family: Helvetica;
+	border: none;
+}
+.settings {
+	background-color: black;
+}
+.clock {
+	background-color: black;
+}
