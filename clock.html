@@ -13,54 +13,54 @@
 		<div class="settings">
 			<div class="settingsHeader">
 				<div id="session">
-					<h3>SESSION</h3>
+					<p>SESSION</p>
 				</div>
 				<div id="break">
-					<h3>BREAK</h3>
+					<p>BREAK</p>
 				</div>
 			</div>
 			<div class="settingsControls">
-				<div id="controller">
-					<button>&uarr;</button>
+				<div class="controller">
+					<button id="sessionUp" onclick="incrementSession()">&uarr;</button>
 				</div>
-				<div id="controller">
-					<h3>25</h3>
+				<div class="controller">
+					<p id="sessionSetting">25</p>
 				</div>
-				<div id="controller">
-					<button>&darr;</button>
+				<div class="controller">
+					<button id="sessionDown" onclick="decreaseSession()">&darr;</button>
 				</div>
-				<div id="controller">
-					<button>&uarr;</button>
+				<div class="controller">
+					<button id="breakUp" onclick="incrementBreak()">&uarr;</button>
 				</div>
-				<div id="controller">
-					<h3>5</h3>
+				<div class="controller">
+					<p id="breakSetting">5</p>
 				</div>
-				<div id="controller">
-					<button>&darr;</button>
+				<div class="controller">
+					<button id="breakDown" onclick="decreaseBreak()">&darr;</button>
 				</div>
 			</div>
 		</div>
 		<div class="clock">
 			<div class="topActions">
 				<div id="play">
-					<button>&#9658;</button>
+					<button id="runTimer">&#9658;</button>
 				</div>
 				<div id="refresh">
-					<button>&#8634;</button>
+					<button id="refreshTimer">&#8634;</button>
 				</div>
 			</div>
 			<div class="timeHeader">
-				<h2>SESSION</h2>
+				<h2 id="timerIndicator">SESSION</h2>
 			</div>
 			<div class="timer">
-				<h2>25:00</h2>
+				<h2 id="runningTimer">25:00</h2>
 			</div>
 			<div class="bottomActions">
 				<div id="pause">
-					<button>&#9612;&#9612;</button>
+					<button id="pauseTimer">&#9612;&#9612;</button>
 				</div>
 				<div id="stop">
-					<button>&#9724;</button>
+					<button id="stopTimer">&#9724;</button>
 				</div>
 			</div>
 		</div>

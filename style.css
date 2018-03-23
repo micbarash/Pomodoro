@@ -6,7 +6,9 @@ h1 {
 	color: #656262;
 	font-size: 42px;
 }
-h2, h3, h4 {
+h2, p, h4 {
+	font-weight: bolder;
+	font-size: 22px;
 	color: white;
 	font-family: Helvetica;
 }
@@ -18,6 +20,7 @@ button {
 	font-size: 35px;
 	color: white;
 	background-color: black;
+	cursor: pointer;
 }
 button:hover {
 	color: grey;
@@ -70,7 +73,7 @@ button:focus {
 	position: relative;
 	bottom: 15px;
 }
-.timeHeader, .timer,  #session, #break, #controller, #play, #refresh, #pause, #stop {
+.timeHeader, .timer,  #session, #break, .controller, #play, #refresh, #pause, #stop {
 	margin: auto;
 }
 
