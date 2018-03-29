@@ -36,7 +36,7 @@ function displayTimer() {
 }
 
 function incrementSession() {
-	if (seconds == 0) {
+	if (seconds == 60) {
 		value = Number(sessionSetting.innerHTML)
 		sessionSetting.innerHTML = value + 1
 		sessionLength = value + 1
@@ -46,7 +46,7 @@ function incrementSession() {
 };
 
 function decreaseSession() {
-	if (seconds == 0) {
+	if (seconds == 60) {
 		value = Number(sessionSetting.innerHTML)
 		if (value > 1) {
 			sessionSetting.innerHTML = value - 1
@@ -63,7 +63,7 @@ function decreaseSession() {
 };
 
 function incrementBreak() {
-	if (seconds == 0) {
+	if (seconds == 60) {
 		value = Number(breakSetting.innerHTML)
 		breakSetting.innerHTML = value + 1
 		breakLength = value + 1		
@@ -71,7 +71,7 @@ function incrementBreak() {
 };
 
 function decreaseBreak() {
-	if (seconds == 0) {
+	if (seconds == 60) {
 		value = Number(breakSetting.innerHTML)
 		if (value > 1) {
 			breakSetting.innerHTML = value - 1
