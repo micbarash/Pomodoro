@@ -1,18 +1,18 @@
 //HTML Indicators
-let sessionSetting = document.getElementById("sessionSetting");
-let breakSetting = document.getElementById("breakSetting") ;
-let runningTimer = document.getElementById("runningTimer"); 
-let timerIndicator = document.getElementById("timerIndicator"); 
+const sessionSetting = document.getElementById("sessionSetting");
+const breakSetting = document.getElementById("breakSetting") ;
+const runningTimer = document.getElementById("runningTimer"); 
+const timerIndicator = document.getElementById("timerIndicator"); 
 
 //Buttons
-let incSession = document.getElementById("sessionUp");
-let decSession = document.getElementById("sessionDown");
-let incBreak = document.getElementById("breakUp");
-let decBreak = document.getElementById("breakDown");
-let runTimer = document.getElementById("runTimer");
-let refreshTimerButton = document.getElementById("refreshTimer");
-let pauseTimerButton = document.getElementById("pauseTimer");
-let stopTimerButton = document.getElementById("stopTimer");
+const incSession = document.getElementById("sessionUp");
+const decSession = document.getElementById("sessionDown");
+const incBreak = document.getElementById("breakUp");
+const decBreak = document.getElementById("breakDown");
+const runTimer = document.getElementById("runTimer");
+const refreshTimerButton = document.getElementById("refreshTimer");
+const pauseTimerButton = document.getElementById("pauseTimer");
+const stopTimerButton = document.getElementById("stopTimer");
 
 //Counters
 let sessionLength = 25;

@@ -2,22 +2,35 @@
 	background-color: lightgrey;
 }
 
+div {
+	border-radius: 5px;
+}
+
 h1 {
 	color: #656262;
 	font-size: 42px;
 }
-h2, p, h4 {
+h2, h4 {
 	font-weight: bolder;
 	font-size: 22px;
 	color: white;
-	font-family: Helvetica;
+	font-family: 'Orbitron', sans-serif;
 }
+
+p {
+	font-size: 20px;
+	font-weight: bolder;
+	color: white;
+	font-family: 'Orbitron', sans-serif;
+}
+
 h2 {
 	font-size: 40px;
 }
 button {
 	border: none;
-	font-size: 35px;
+	font-size: 45px;
+	font-weight: bolder;
 	color: white;
 	background-color: black;
 	cursor: pointer;
@@ -40,7 +53,7 @@ button:focus {
 }
 .header {
 	margin: auto;
-	font-family: Helvetica;
+	font-family: 'Orbitron', sans-serif;
 	border: none;
 }
 .settings {
@@ -63,7 +76,7 @@ button:focus {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	position: relative;
-	bottom: 10px;
+	bottom: 19px;
 }
 .topActions, .bottomActions {
 	display: grid;
@@ -76,4 +89,28 @@ button:focus {
 .timeHeader, .timer,  #session, #break, .controller, #play, #refresh, #pause, #stop {
 	margin: auto;
 }
+#pauseTimer, #breakSetting, #sessionSetting {
+	font-size: 27px;
+	font-weight: bold;
+}
 
+#refreshTimer {
+	position: relative;
+	top: 5px;
+}
+
+#timerIndicator {
+	font-size: 25px;
+	font-weight: bolder;
+	color: white;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#runningTimer {
+	font-size: 60px;
+	font-weight: bolder;
+	color: white;
+	font-family: 'Orbitron', sans-serif;
+	position: relative;
+	bottom: 45px;
+}
