@@ -108,7 +108,7 @@ button:focus {
 
 #runningTimer {
 	font-size: 60px;
-	font-weight: bolder;
+	font-weight: normal;
 	color: white;
 	font-family: 'Orbitron', sans-serif;
 	position: relative;

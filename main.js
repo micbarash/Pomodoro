@@ -83,6 +83,10 @@ function decreaseBreak() {
 	}
 };
 
+function playAlarm() {
+	document.getElementById('alarm1').play();
+}
+
 function countdown(minutes) {
     let mins = minutes
     stop = false;
@@ -103,6 +107,8 @@ function countdown(minutes) {
             		isBreak = false;
             		timerIndicator.innerHTML = "SESSION";
             		timerIndicator.style.color = "White";
+            		seconds = 60;
+            		playAlarm();
             		countdown(sessionLength);
         } else {
             if (mins > 1) {
@@ -114,6 +120,7 @@ function countdown(minutes) {
             		timerIndicator.innerHTML = "BREAK";
             		timerIndicator.style.color = "Green";
             		seconds = 60;
+            		playAlarm();
             		countdown(breakLength);
             	}
             }
